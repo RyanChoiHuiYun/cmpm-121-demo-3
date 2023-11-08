@@ -75,7 +75,6 @@ function makePit(i: number, j: number) {
     deposit.addEventListener("click", () => {
       if (points > 0) {
         points--;
-        f;
         value++;
       }
       container.querySelector<HTMLSpanElement>("#value")!.innerHTML =
